@@ -10,9 +10,5 @@ public class Car {
         }
     }
 
-    public void printTireData() {
-        for (int i = 0; i < tires.length; i++) {
-            System.out.println("A " + tires[i].getTireType() + " gumi a " + tires[i].getTirePlace() + " van.");
-        }
-    }
+
 }
